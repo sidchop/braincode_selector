@@ -1,6 +1,6 @@
 library(shiny)
-library(here)
 library(DT)
+
 key  <- readRDS("www/key.RDS")
 data <- readRDS("www/table.RDS")
 
